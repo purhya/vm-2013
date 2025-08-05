@@ -1,6 +1,6 @@
 # vm-2013
 
-In 2013, I'm learning AngularJS v1, but find it's source codes are unbelievably difficult to read.
+In 2013, I'm learning AngularJS v1, but find it's source codes are incredibly difficult to read.
 
 So followed Angular APIs I wrote this small library with only 2k lines of codes, it's absolutely primitive and rough, which includes only two parts:
 
@@ -36,4 +36,4 @@ var userPicker = {
 
 ### Look back
 
-When coding, I realized `$bind="name"` will change `name` property. So naturally after `name` property changed, only need to update places where reply on `name` like `{{name}}`. So I implemented it.
+While coding, I realized `$bind="name"` will change `name` property. So naturally after `name` property changed, only need to update places like `{{name}}` where replies on `name`. So I implemented it.
